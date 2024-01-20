@@ -1,7 +1,12 @@
 .game-provider-slider {
-    background: transparent;
-    margin-top: 25px;
-    display: flex;
+
+    width: 100%;
+    position: relative;
+    display: block;
+    border-bottom: none;
+    padding: 4px;
+    background: linear-gradient(to bottom,#FFD700 0%,#D4AF37 50%,#DAA520  100%);
+
 }
 
 .game-provider-slider .game-providers {
@@ -12,21 +17,25 @@
 }
 
 .game-provider-slider .game-providers a {
-    color: #fff;
-    background: #000000;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: calc(100% / 6);
+    flex-basis: calc(80% / 6);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
-    border: 6px solid #90cace;
+    
+    position: relative;
+    display: block;
+    border-bottom: none;
+    padding: 4px;
+    background: linear-gradient(to bottom,#FFD700 0%,#D4AF37 50%,#DAA520 100%);
+    box-shadow: 0px 0px 6px #920303;
+    border: 1px solid #920303;
 }
 
 .game-provider-slider .game-providers a:hover {
-    background: #411530;
+    background: #920303;
 }
 
 .game-provider-slider .game-providers a h5 {
@@ -37,7 +46,7 @@
 }
 
 .game-provider-slider>button {
-    color: #2A0944;
+    color: #000000;
     display: flex;
     align-items: center;
     padding: 0 15px;
@@ -47,7 +56,7 @@
 }
 
 .game-provider-slider>button:hover {
-    background-color: #e3ca27;
+    background-color: #920303;
 }
 
 @media (max-width: 992px) {

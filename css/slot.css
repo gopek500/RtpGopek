@@ -8,7 +8,7 @@ p {
 }
 
 body {
-background-image: url("https://i.ibb.co/VHMnkns/wall.jpg");
+ background-image: url("https://i.imgur.com/sO5NbxQ.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -66,6 +66,10 @@ img {
 button:hover,
 button:focus {
     outline: none;
+}
+
+.btn-provider:hover {
+    background-color: #398489;
 }
 
 .slot-sidebar-nav {
@@ -142,13 +146,19 @@ button:focus {
 }
 
 .card-content {
-    margin: 5px;
-    color: #fff;
     font-size: 12px;
-    border: none;
-    overflow: hidden;
+    border-bottom: 1px solid #0092b1;
+    width: 100%;
     position: relative;
-    background-color: #000000;
+    display: block;
+    border-bottom: none;
+    padding: 4px;
+    background: linear-gradient(to bottom,#FFD700 0%,#D4AF37 50%,#DAA520  100%);
+    border: 1px solid #fb7c01;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .percent {
@@ -198,15 +208,15 @@ button:focus {
 }
 
 .yellow {
-    background-color: #ffc107;
+    background-color: #dec101;
 }
 
 .green {
-    background-color: #28a745;
+    background-color: #23d200;
 }
 
 .red {
-    background-color: #dc3545;
+    background-color: #d70015;
 }
 
 .hover-btn {
@@ -256,7 +266,7 @@ button:focus {
 }
 
 .play-btn:hover {
-    background: #ec700a;
+    background: #0e0aec;
 }
 
 .img-zoom {
